@@ -1,0 +1,151 @@
+.block {
+    width: 50px;
+    height: 50px;
+    text-align: center; 
+    font-size: 30;
+}
+
+.blockclicked {
+    width: 50px;
+    height: 50px;
+    text-align: center; 
+    font-size: 30;
+}
+
+.nonet {
+    width: 158px;
+    height: 150px;
+}
+
+.table{
+float: left;
+}
+
+.easy{
+    float: left;
+    position: relative;
+    right:410px;
+    top: 550px;
+    width: 75px;
+    height: 35px;
+    font-size: 18;
+}
+
+.medium{
+    float: left;
+    position: relative;
+    right:360px;
+    top: 550px;
+    width: 75px;
+    height: 35px;
+    font-size: 18;
+}
+
+.hard{
+    float: left;
+    position: relative;
+    right:310px;
+    top: 550px;
+    width: 75px;
+    height: 35px;
+    font-size: 18;
+}
+
+#one{
+    text-align: center; 
+    float: left;
+    position: relative;
+    right: 492px;
+    top: 440px;
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+}
+
+#two{
+    text-align: center; 
+    float: left;
+    position: relative;
+    right: 487px;
+    top: 440px;
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+}
+
+#three{
+    text-align: center; 
+    float: left;
+    position: relative;
+    right: 482px;
+    top: 440px;
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+}
+
+#four{
+    text-align: center; 
+    float: left;
+    position: relative;
+    right: 477px;
+    top: 440px;
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+}
+
+#five{
+    text-align: center; 
+    float: left;
+    position: relative;
+    right: 472px;
+    top: 440px;
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+}
+
+#six{
+    text-align: center; 
+    float: left;
+    position: relative;
+    right: 467px;
+    top: 440px;
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+}
+
+#seven{
+    text-align: center; 
+    float: left;
+    position: relative;
+    right: 462px;
+    top: 440px;
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+}
+
+#eight{
+    text-align: center; 
+    float: left;
+    position: relative;
+    right: 457px;
+    top: 440px;
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+}
+
+#nine{
+    text-align: center; 
+    float: left;
+    position: relative;
+    right: 452px;
+    top: 440px;
+    width: 50px;
+    height: 50px;
+    font-size: 25;
+}

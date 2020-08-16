@@ -1,0 +1,186 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>Sudoku</title>
+</head>
+<body>
+<table class="table" border="1">
+
+<tr>
+
+<td class="nonet">
+    
+    <input id="cell1" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell2" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell3" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+
+    <input id="cell10" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell11" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell12" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+
+    <input id="cell19" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell20" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell21" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+
+</td>
+
+<td class="nonet">
+    
+    <input id="cell4" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell5" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell6" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+
+    <input id="cell13" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell14" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell15" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+
+    <input id="cell22" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell23" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell24" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+
+</td>
+
+<td class="nonet">
+    
+    <input id="cell7" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell8" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell9" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+
+    <input id="cell16" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell17" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell18" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+
+    <input id="cell25" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell26" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    <input id="cell27" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+
+</td>
+
+</tr>
+
+<tr>
+
+    <td class="nonet">
+        
+        <input id="cell28" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell29" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell30" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell37" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell38" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell39" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell46" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell47" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell48" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    
+    </td>
+    
+    <td class="nonet">
+        
+        <input id="cell31" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell32" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell33" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell40" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell41" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell42" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell49" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell50" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell51" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    
+    </td>
+    
+    <td class="nonet">
+        
+        <input id="cell34" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell35" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell36" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell43" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell44" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell45" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell52" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell53" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell54" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    
+    </td>
+    
+</tr>
+
+<tr>
+
+    <td class="nonet">
+        
+        <input id="cell55" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell56" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell57" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell64" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell65" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell66" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell73" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell74" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell75" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    
+    </td>
+    
+    <td class="nonet">
+        
+        <input id="cell58" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell59" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell60" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell67" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell68" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell69" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell76" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell77" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell78" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    
+    </td>
+    
+    <td class="nonet">
+        
+        <input id="cell61" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell62" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell63" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell70" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell71" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell72" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)"><br>
+    
+        <input id="cell79" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell80" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+        <input id="cell81" type="text" class="block" READONLY onclick="selected(id)" ondblclick="eraser(id)">
+    
+    </td>
+    
+</tr>
+
+</table>
+<input type="button" value="Easy" class="easy" onclick="generateBoard(20)">
+<input type="button" value="Medium" class="medium" onclick="generateBoard(40)">
+<input type="button" value="Hard" class="hard" onclick="generateBoard(60)">
+
+<br>
+<br>
+
+<input type="button" value="1" class="number" id="one" onclick="placeNumber(id)">
+<input type="button" value="2" class="number" id="two" onclick="placeNumber(id)">
+<input type="button" value="3" class="number" id="three" onclick="placeNumber(id)">
+<input type="button" value="4" class="number" id="four" onclick="placeNumber(id)">
+<input type="button" value="5" class="number" id="five" onclick="placeNumber(id)">
+<input type="button" value="6" class="number" id="six" onclick="placeNumber(id)">
+<input type="button" value="7" class="number" id="seven" onclick="placeNumber(id)">
+<input type="button" value="8" class="number" id="eight" onclick="placeNumber(id)">
+<input type="button" value="9" class="number" id="nine" onclick="placeNumber(id)">
+
+<script src="sudoku.js"></script>
+
+</body>
+</html>
